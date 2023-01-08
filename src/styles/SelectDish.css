@@ -1,0 +1,111 @@
+.App {
+    background-color: white;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  
+  
+  .grid-container-selectdish {
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .grid-item-selectdish1 {
+    grid-area: 1 / 1 / span 1 / span 3;
+    border: 2px solid black;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .grid-item-selectdish2 {
+    grid-area: 1 / 4 / span 1 / span 1;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+
+  }
+  
+  .grid-item-selectdish3 {
+    grid-area: 2 / 1 / span 1 / span 3;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 30vh;
+    margin-bottom: rem;
+
+  }
+
+  .meal-title {
+    color: #C16757;
+  }
+
+  .meal-description {
+    color: #C16757;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .new-mealbutton {
+  background-color: #C16757;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: xx-large;
+  border-radius: 20px;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+  }
+
+  .meal-image {
+    cursor: pointer;
+  }
+
+  .drinks-button {
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    background-color: #C16757;
+    margin: 15px;
+    
+  }
+
+  .order-meal-button {
+    text-decoration: none;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: xx-large;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 10px;
+    border: none;
+    color: white;
+    background-color: #C16757;
+    margin: 15px;
+  }
+
+  

@@ -1,0 +1,44 @@
+.App {
+    background-color: white;
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    
+  }
+  
+  
+  .grid-container {
+    width: 100vh;
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .grid-item-receiptscreen {
+    grid-area: 1 / 1 / span 1 / span 3;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+
+
+
+  }
+
+  .grid-item-receiptscreen h2 {
+    color: #C16757;
+    font-size: xx-large;
+  }
+
+  .grid-item-receiptscreen p ,li {
+    color: black;
+    font-size: x-large;
+
+  }  
+
+  .total {
+  }
+

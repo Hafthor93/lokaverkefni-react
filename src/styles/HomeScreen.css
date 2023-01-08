@@ -1,0 +1,179 @@
+.App {
+  background-color: white;
+  height: 100vh;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+
+.grid-container {
+  width: 100vh;
+  height: 100vh;
+  display: grid;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.grid-item1 {
+  grid-area: 1 / 1 / span 1 / span 3;
+  border: 2px solid black;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: max-content;
+
+}
+
+.grid-item2 {
+  grid-area: 1 / 4 / span 1 / span 1;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55,5vh;
+}
+
+
+
+.order-box {
+  color: #C16757;
+  margin: 10px;
+
+}
+
+.grid-item3 {
+  grid-area: 2 / 1 / span 1 / span 2;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 400px;
+}
+
+
+.grid-item4 {
+  grid-area: 2 / 3 / span 1 / span 2;
+  border: 2px solid black;
+  margin-left: 5px;
+  margin-bottom: 400px;
+}
+
+
+
+.navbar {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #C16757;
+  padding: 14px 16px;
+  text-decoration: none;
+  width: 200px;
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+li a:hover {
+  background-color: #E0E39A;
+  border-radius: 50px;
+}
+
+.order-button {
+  background-color: #C16757;
+  color: white;
+  border: solid 0px;
+  font-weight: bold;
+  font-size: xx-large;
+  border-radius: 20px;
+  height: 60px;
+  width: 200px;
+  margin: 10px;
+  padding: 15px;
+  text-decoration: none;
+}
+
+.orderbutton-div {
+  position: relative;
+  
+}
+
+.find-h1 {
+  color: #C16757;
+}
+
+.find-button {
+  background-color: #C16757;
+  color: white;
+  border: solid 0px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: xx-large;
+  border-radius: 20px;
+  height: 60px;
+  width: 220px;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.find-h1 {
+  margin-left: 20px;
+}
+
+.find-button-div {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.order-button a:hover {
+  background-color: #E0E39A;
+}
+
+.test {
+  width: 100%;
+  height: 100%;
+}
+
+.email-label {
+  color: #C16757;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 20px;
+  display: block;
+}
+
+.email-input {
+  margin-left: 10px;
+  border: 2px solid black;
+  padding-right: 100px;
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: x-large;
+}
+
+.active-page {
+  background-color: #E0E39A;
+  border-radius: 50px;
+}
